@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
-
+import sklearn
+import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import r2_score
 
@@ -13,6 +14,7 @@ from keras.models import Sequential
 import warnings
 warnings.filterwarnings("ignore")
 
+st.title("Electro-Ai")
 #dataset loading 
 df = pd.read_csv("/Users/hemantkumar/Developer/hackathon/sih/model/dataset/DOM_hourly.csv")
 # convert the Datetime column to Datetime format
@@ -20,6 +22,8 @@ df['Datetime'] = pd.to_datetime(df['Datetime'])
 
 # indexing the Datetime column after the transformation
 df.set_index('Datetime', inplace=True)
+st.write("Dataset Preview")
+st.write(df)
 # Let see at the years in the data set
 years = df.index.year.unique()
 # Let's see the average energy consumed per year
@@ -95,6 +99,7 @@ last_6169_index_dates = df.index[-6169:]
 
 # Now let's see our actual y and predicted y values as dataframes
 results_RNN = pd.DataFrame({"Date":last_6169_index_dates, 'Actual': y_test_inverse, 'Predicted': rnn_predictions_inverse})
-print(results_RNN)
+result_rnnpredict=pd.DataFrame({"Date":last_6169_index_dates,"Predicted":rnn_predictions_inverse})
+print(result_rnnpredict)
 
 print(rnn_predictions_inverse)
