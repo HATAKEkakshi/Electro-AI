@@ -2,4 +2,4 @@ numpy
 pandas
 streamlit
 sckit-learn
- matplotlib
+matplotlib
