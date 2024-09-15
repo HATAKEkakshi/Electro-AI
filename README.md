@@ -76,16 +76,17 @@ To check out the training model code:
     - **RNN:** The accuracy of the RNN model on the DOM dataset is **91.62029669157408**.
 
 ## Electro-AI Model Explanation
-
+### Model Code Video
+[![Model Video](/Images/modelvideo.png)](https://youtu.be/5Jvvqy1MY9Y)
 ## Experience The Models
 
 ### Model Video
 
-[![Model Video](/Images/modelvideo.png)](https://youtu.be/5Jvvqy1MY9Y)
+[![Model Video](/Images/model2.png)](https://youtu.be/VtiupDO5xMs)
 ### Model Link 👇
 
 [Electro-AI Streamlit App](https://electroai.streamlit.app/)
 
 ### Website Link 👇
 
-[Electro-AI Website](https://raghavpershad.wixstudio.io/my-site-1/)
+[Electro-AI Website](https://electroai.streamlit.app/)
