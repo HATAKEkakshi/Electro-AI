@@ -34,11 +34,15 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
 <h1>Models</h1>
 <ol>
     <li><h3>RNN(Recurrent neural network)</h3></li>
+    <p>A Recurrent Neural Network (RNN) is a type of neural network designed for sequential data, where connections form cycles, allowing it to retain information from previous inputs.</p>
     <ol>
         <li><h4>Layers</h4></li>
        <li> <h4>Epoches</h4></li>
+       <li><h4>Problem</h4></li>
+       <p>RNNs struggle with learning long-term dependencies due to the vanishing gradient problem, where gradients become too small during backpropagation, making it difficult to update weights for earlier inputs in long sequences. LSTM networks address this by introducing memory cells with gates (input, forget, and output) that regulate the flow of information. This allows LSTMs to retain relevant information over longer time periods, effectively solving the issue of learning from long sequences.</p>
     </ol>
     <li><h3>LSTM(Long short-term memory)</h3></li>
+    <p>Long Short-Term Memory (LSTM) is a specialized RNN variant that addresses the problem of long-term dependency by using memory cells to maintain information over longer sequences efficiently.</p>
     <ol>
         <li><h4>Layers</h4></li>
         <li><h4>Epoches</h4></li>
