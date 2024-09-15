@@ -19,19 +19,25 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
     <h4>Testing</h4>
     <p>For the testing of the Model We have taken Data after 13-02-2017</p>
     <img src = "/Images/pjmetrainingandtesting.png" alt="DOM Energy Consumption Graph">
-    <p>As you can see partition line on the graph on the right side the orange region it is the Testing region</p>
+    <p>As you can see partition line on the graph on the right side the orange region it is the Testing region.</p>
     <h3>DOM_Hourly</h3>
     <h4>Energy Consumption Graph</h4>
      <img src = "/Images/domenergy.png" alt="PJME Energy Consumption Graph">
     <h4>Training</h4>
     <p>For the training of the Model We have taken data before 13-02-2017</p>
     <img src = "/Images/trainingandtesting.png" alt="DOM Energy Consumption Graph">
-    <p>As you can see partition line on the graph on the left side the blue region it is the training region</p>
+    <p>As you can see partition line on the graph on the left side the blue region it is the training region.</p>
     <h4>Testing</h4>
     <p>For the testing of the Model We have taken Data after 13-02-2017</p>
     <img src = "/Images/trainingandtesting.png" alt="DOM Energy Consumption Graph">
-     <p>As you can see partition line on the graph on the right side the orange region it is the Testing region</p>
+     <p>As you can see partition line on the graph on the right side the orange region it is the Testing region<./p>
 <h1>Models</h1>
+<h3>RNN(Recurrent neural network)</h3>
+    <h4>Layers</h4>
+    <h4>Epoches</h4>
+<h3>LSTM(Long short-term memory)</h3>
+    <h4>Layers</h4>
+    <h4>Epoches</h4>
 <h1>Prediction And Accuracy</h1>
 <h1>Electro-AI Model Explanation</h1>
 <h1>Experience The Models</h1>
