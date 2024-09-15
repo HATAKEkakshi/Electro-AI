@@ -81,7 +81,7 @@ To check out the training model code:
 
 ### Model Video
 
-[![Model Video](/Images/model2.png)](https://youtu.be/VtiupDO5xMs)
+[![Model Video]](https://youtu.be/VtiupDO5xMs)
 ### Model Link 👇
 
 [Electro-AI Streamlit App](https://electroai.streamlit.app/)
