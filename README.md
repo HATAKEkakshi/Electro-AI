@@ -13,4 +13,5 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
     ```
     
     electroai.streamlit.app
+    
     ```
