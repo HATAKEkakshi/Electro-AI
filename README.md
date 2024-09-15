@@ -17,7 +17,7 @@ There are Four Types of Dataset Available Right now:
 ### PJME_Hourly
 
 #### Energy Consumption Graph
-![Energy Consumption Graph](Images/energyconsumption_graph.png)
+![Energy Consumption Graph](Images/energyconsumptiongraph.png)
 
 #### Training
 For the training of the Model We have taken data before 13-02-2017
