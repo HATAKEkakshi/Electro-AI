@@ -37,7 +37,9 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
     <p>A Recurrent Neural Network (RNN) is a type of neural network designed for sequential data, where connections form cycles, allowing it to retain information from previous inputs.</p>
     <ol>
         <li><h4>Layers</h4></li>
+        <p>In our RNN model, we determined that using 7 layers provided the optimal balance for achieving high accuracy on both the DOM and PJME datasets. After experimenting with various configurations, we found that this specific architecture delivered the best performance, effectively capturing the necessary patterns in both datasets for accurate predictions. This approach allowed us to fine-tune the model to achieve robust results.</p>
        <li> <h4>Epoches</h4></li>
+       <p>In our RNN model, we tested various epoch counts, including 15, 20, and 30, to identify the ideal number for training. After careful evaluation, we found that 32 epochs provided the optimal balance for effective learning, ensuring the model was sufficiently trained without overfitting, and achieving the best performance on both the DOM and PJME datasets.</p>
        <li><h4>Problem</h4></li>
        <p>RNNs struggle with learning long-term dependencies due to the vanishing gradient problem, where gradients become too small during backpropagation, making it difficult to update weights for earlier inputs in long sequences. LSTM networks address this by introducing memory cells with gates (input, forget, and output) that regulate the flow of information. This allows LSTMs to retain relevant information over longer time periods, effectively solving the issue of learning from long sequences.</p>
     </ol>
@@ -45,7 +47,9 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
     <p>Long Short-Term Memory (LSTM) is a specialized RNN variant that addresses the problem of long-term dependency by using memory cells to maintain information over longer sequences efficiently.</p>
     <ol>
         <li><h4>Layers</h4></li>
+        <p>In our LSTM model, we determined that using 7 layers provided the optimal balance for achieving high accuracy on both the DOM and PJME datasets. After experimenting with various configurations, we found that this specific architecture delivered the best performance, effectively capturing the necessary patterns in both datasets for accurate predictions. This approach allowed us to fine-tune the model to achieve robust results.</p>
         <li><h4>Epoches</h4></li>
+          <p>In our LSTM model, we tested various epoch counts, including 15, 20, and 30, to identify the ideal number for training. After careful evaluation, we found that 32 epochs provided the optimal balance for effective learning, ensuring the model was sufficiently trained without overfitting, and achieving the best performance on both the DOM and PJME datasets.</p>
     </ol>
 </ol>
 <h1>Prediction And Accuracy</h1>
