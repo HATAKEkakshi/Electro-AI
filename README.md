@@ -51,6 +51,24 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
         <li><h4>Epoches</h4></li>
           <p>In our LSTM model, we tested various epoch counts, including 15, 20, and 30, to identify the ideal number for training. After careful evaluation, we found that 32 epochs provided the optimal balance for effective learning, ensuring the model was sufficiently trained without overfitting, and achieving the best performance on both the DOM and PJME datasets.</p>
     </ol>
+      <li><h3>Training Model</h3></li>
+       <p>To Check out training model code we have:</p>
+       <ol>
+            <li>PJME</li>
+            <ol>
+                <li>LSTM</li>
+                <p>The Location of the training code  is /model/LSTM-RNN/model2.ipynb/ you can check out the code and the pkl file of the model is in /model/model(pickle)/lstmmodel2.pkl</p>
+                <li>RNN</li>
+                <p>The Location of the training code is model/RNN/model2.ipynb  you can check out the code and the pkl file of the model is in h/model/model(pickle)/rnnmodel2.pkl</p>            
+            </ol>
+            <li>DOM</li>
+             <ol>
+                <li>LSTM</li>
+                <p>The Location of the training code is /model/LSTM-RNN/model2.ipynb/ you can check out the code and the pkl file of the model is in /model/model(pickle)/lstmmodel.pkl</p>
+                <li>RNN</li> 
+                <p>The Location of the training code is model/RNN/model2.ipynb  you can check out the code and the pkl file of the model is in h/model/model(pickle)/rnnmodel2.pkl</p>           
+            </ol>
+       </ol>
 </ol>
 <h1>Prediction And Accuracy</h1>
 <h1>Electro-AI Model Explanation</h1>
