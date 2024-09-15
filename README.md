@@ -7,8 +7,8 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
 <h1>Prediction And Accuracy</h1>
 <h1>Electro-AI Model Explanation</h1>
 <h1>Experience The Models</h1>
-    <h2></h2>
-    <h2>Model Link 👇</h2>
+    <h33></h33>
+    <h3>Model Link 👇</h3>
 
 ```
 https://electroai.streamlit.app/
