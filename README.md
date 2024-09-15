@@ -91,10 +91,10 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
 <h1>Electro-AI Model Explanation</h1>
 <h1>Experience The Models</h1>
     <h3>Model Video</h3>
-    <video width="320" height="240" controls>
-    <source src="/model_video/streamlit-app-2024-09-16-01-09-06.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+   <video width="600" controls>
+        <source src="/model_video/streamlit-app-2024-09-16-01-09-06.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
     <h3>Model Link 👇</h3>
 
 ```
