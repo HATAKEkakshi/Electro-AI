@@ -81,7 +81,7 @@ To check out the training model code:
 
 ### Model Video
 
-[![Model Video](IMAGE_URL)](VIDEO_URL)
+[![Model Video](/Images/model2.png)](//model_video/streamlit-app-2024-09-16-01-09-06.webm)
 
 ### Model Link 👇
 
