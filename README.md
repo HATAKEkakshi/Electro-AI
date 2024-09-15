@@ -33,12 +33,16 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
      <p>As you can see partition line on the graph on the right side the orange region it is the Testing region<./p>
 <h1>Models</h1>
 <ol>
-    <li><h3><>RNN(Recurrent neural network)</h3></li>
+    <li><h3>RNN(Recurrent neural network)</h3></li>
+    <ol>
         <li><h4>Layers</h4></li>
        <li> <h4>Epoches</h4></li>
+    </ol>
     <li><h3>LSTM(Long short-term memory)</h3></li>
+    <ol>
         <li><h4>Layers</h4></li>
         <li><h4>Epoches</h4></li>
+    </ol>
 </ol>
 <h1>Prediction And Accuracy</h1>
 <h1>Electro-AI Model Explanation</h1>
