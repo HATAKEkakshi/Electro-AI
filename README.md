@@ -32,7 +32,7 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
     <img src = "/Images/trainingandtesting.png" alt="DOM Energy Consumption Graph">
      <p>As you can see partition line on the graph on the right side the orange region it is the Testing region<./p>
 <h1>Models</h1>
-<h3>RNN(Recurrent neural network)</h3>
+<u><h3>RNN(Recurrent neural network)</h3></u>
     <h4>Layers</h4>
     <h4>Epoches</h4>
 <h3>LSTM(Long short-term memory)</h3>
