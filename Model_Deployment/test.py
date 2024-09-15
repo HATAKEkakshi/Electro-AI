@@ -7,18 +7,12 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import r2_score
 
-import warnings
-warnings.filterwarnings("ignore")
-
-
-
-
 st.title("Electro-AI")
 st.text("Welcome to Electro you can Experience Two model ")
 choicedataset=['PJME_hourly','DOM_hourly']
 choose=st.selectbox("Choose from following Dataset:",choicedataset)
 if choose=='PJME_hourly':
-    df = pd.read_csv("/Users/hemantkumar/Developer/hackathon/sih/model/dataset/PJME_hourly.csv")
+    df = pd.read_csv("PJME_hourly.csv")
     # convert the Datetime column to Datetime format
     df['Datetime'] = pd.to_datetime(df['Datetime'])
 
@@ -105,7 +99,7 @@ if choose=='PJME_hourly':
     choice1=st.selectbox("Choose from following Dataset:",choice)
     if choice1=="RNN":
         #accesing model
-        with open('/Users/hemantkumar/Developer/hackathon/sih/model/model(pickle)/rnnmodel2.pkl','rb') as f :
+        with open('rnnmodel2.pkl','rb') as f :
             rnn1=pickle.load(f)
         rnn_predictions=rnn1.predict(X_test)
         rnn_score = r2_score(y_test,rnn_predictions)
@@ -132,7 +126,7 @@ if choose=='PJME_hourly':
         st.pyplot(fig)
     else:
         ##Buliding Model
-        with open('/Users/hemantkumar/Developer/hackathon/sih/model/model(pickle)/lstmmodel2.pkl','rb') as d:
+        with open('lstmmodel2.pkl','rb') as d:
             lstm=pickle.load(d)
         lstm_predicts=lstm.predict(X_test)
         lstm_score = r2_score(y_test, lstm_predicts)
@@ -162,7 +156,7 @@ if choose=='PJME_hourly':
         st.pyplot(fig)
 
 else:
-    df = pd.read_csv("/Users/hemantkumar/Developer/hackathon/sih/model/dataset/DOM_hourly.csv")
+    df = pd.read_csv("DOM_hourly.csv")
     # convert the Datetime column to Datetime format
     df['Datetime'] = pd.to_datetime(df['Datetime'])
 
@@ -249,7 +243,7 @@ else:
     choice1=st.selectbox("Choose from following Dataset:",choice)
     if choice1=="RNN":
         #accesing model
-        with open('/Users/hemantkumar/Developer/hackathon/sih/model/model(pickle)/rnnmodel.pkl','rb') as g :
+        with open('rnnmodel.pkl','rb') as g :
             rnn=pickle.load(g)
         rnn_predictions=rnn.predict(X_test)
         rnn_score = r2_score(y_test,rnn_predictions)
@@ -289,8 +283,8 @@ else:
         st.pyplot(fig)
     else:
         ##Buliding Model
-        with open('/Users/hemantkumar/Developer/hackathon/sih/model/model(pickle)/lstmmodel.pkl','rb') as e:
-            lstm1=pickle.load(e)
+        pickle_in= open('lstmmodel.pkl','rb') 
+        lstm1=pickle.load(pickle_in)
         lstm_predicts=lstm1.predict(X_test)
         lstm_score = r2_score(y_test, lstm_predicts)
         st.title("Model Accuracy")
