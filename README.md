@@ -71,6 +71,23 @@ Electro AI is a deep learning model leveraging Recurrent Neural Networks (RNN) a
        </ol>
 </ol>
 <h1>Prediction And Accuracy</h1>
+<ol>
+    <li>PJME</li>
+    <ol>
+        <li>LSTM</li>
+        <p>The Accuracy of the LSTM Model is PJME DATASET we have reach is <strong>97.95110117136096</strong></p>
+        <li>RNN</li>
+        <p>The Accuracy of the RNN Model is PJME DATASET we have reach is <strong>94.60996141689058</strong></p>
+        <p></p>
+    </ol>
+    <li>DOM</li>
+     <ol>
+        <li>LSTM</li>
+        <p>The Accuracy of the LSTM Model is DOM DATASET we have reach is <strong>95.79372168438101</strong></p>
+        <li>RNN</li>
+        <p>The Accuracy of the RNN Model is PJME DATASET we have reach is <strong>91.62029669157408</strong></p>
+    </ol>
+</ol>
 <h1>Electro-AI Model Explanation</h1>
 <h1>Experience The Models</h1>
     <h3>Model Video</h3>
