@@ -89,4 +89,4 @@ To check out the training model code:
 
 ### Website Link 👇
 
-[Electro-AI Website](https://electroai.streamlit.app/)
+[Electro-AI Website](https://raghavpershad.wixstudio.io/my-site-1/)
